@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <div class="header">
+        <img class="header__logo" src="./Nueva carpeta/Logo.png" alt="">
+    </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="left">
+                <textarea id="ingresoTexto" class="ingreso__texto" placeholder="Ingrese texto aqui!"></textarea>
+                <div class="left__footer">
+                    <img src="./Nueva carpeta/bi_exclamation-circle-fill-1.png" alt="">
+                    <span class="left__info">solo letras minusculas y sin acentos</span>
+                    <div class="left__botones">
+                        <button id="botonEncriptar" class="boton__encriptador">Encriptar</button>
+                        <button id="botonDesencriptar" class="boton__desencriptador">Desencriptar</button>
+                    </div>    
+                </div>
+            </div>
+            <div id="right" class="right ajustar">
+                <img id="muñeco" class="logo__muñeco" src="./Nueva carpeta/Muñeco.png" alt="">
+            <div>
+                <textarea id="mensajeFinal" class="mensaje__final" placeholder="Ningun texto fue encontrado"></textarea>
+                <p id="rightInfo" class="right__info">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+                <button id="botonCopiar" class="boton__copiar oculto">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <!-- <footer>
+    </footer> -->
+    <script src="js/script.js"></script>
+</body>
+</html>
